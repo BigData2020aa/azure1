@@ -140,10 +140,10 @@ window.addEventListener('load', function () {
         arg.Inputs.input1.Values.push(p);
  
         jQuery.ajax({
-            url: "https://ocs-2.azure-api.net/predict/execute?api-version=2.0&details=true",
+            url: "<your URL>",
             beforeSend: function (xhrObj) {
                 xhrObj.setRequestHeader("Content-Type", "application/json;charset=utf-8");
-                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "772a5a3b06eb444f86ba9e4f3b31dc1f");
+                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "<your Subscription-Key>");
  
             },
             type: "POST",
