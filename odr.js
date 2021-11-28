@@ -143,7 +143,7 @@ window.addEventListener('load', function() {
                 url: "https://ocrv1.azure-api.net/predict/score",
                 beforeSend: function(xhrObj) {
                     xhrObj.setRequestHeader("Content-Type", "application/json;charset=utf-8");
-                    xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "772a5a3b06eb444f86ba9e4f3b31dc1f");
+                    xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "cddeea094118480f8f5e99b460429ea3");
 
                 },
                 type: "POST",
